@@ -1,0 +1,35 @@
+name: ModerationPE
+version: 1.0.0
+author: ModerationPE
+api: [4.0.0, 5.0.0]
+main: Terpz710\ModerationPE\Staff
+description: Adds moderation to your PMMP server
+
+permissions:
+  moderationpe.ban:
+    description: Allows the OP to ban other players.
+    default: op
+  moderationpe.banlist:
+    description: Allows the OP to see a list of banned players.
+    default: op
+  moderationpe.freeze:
+    description: Allows the OP to freeze other players.
+    default: op
+  moderationpe.kick:
+    description: Allows the OP to kick other players.
+    default: op
+  moderationpe.mute:
+    description: Allows the OP to mute other players.
+    default: op
+  moderationpe.mutelist:
+    description: Allows the OP to dee a list of muted players.
+    default: op
+  moderationpe.unban:
+    description: Allows the OP to unban other players.
+    default: op
+  moderationpe.unfreeze:
+    description: Allows the OP to unfreeze other players.
+    default: op
+  moderationpe.unmute:
+    description: Allows the OP to unmute other players.
+    default: op
